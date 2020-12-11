@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/52b0529263.js" crossorigin="anonymous"></script>
+    <title>Dream Events</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url('images/bg1.jpg');
+            position: relative;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            height: 200vh;
+            color: white;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 134%;
+            background: rgb(0 0 0 / 0.2);
+            z-index: -1;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            /* display: relative; */
+            /* position: relative; */
+            padding: 20px 0px;
+            background-image: url('images/bg1.jpg');
+            /* background-repeat: no-repeat; */
+            /* background-attachment: fixed; */
+            /* background-size: cover; */
+        }
+
+        /* header::before{
+            content:"";
+            background-color: rgb(59, 58, 58);
+        } */
+
+        header i {
+            position: absolute;
+            /* border: 2px solid red; */
+            /* flex: 1; */
+            left: 56px;
+        }
+
+        .fas {
+            font-size: 50px;
+            color: rgba(128, 128, 128, 1);
+        }
+
+        .fas:hover {
+            color: rgba(128, 128, 128, 0.8);
+        }
+
+        header nav {
+            text-align: center;
+            /* border: 2px solid blue; */
+            /* flex: 2; */
+        }
+
+        header nav ul li {
+            display: inline;
+            list-style: none;
+            padding: 0px 40px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            font-size: 24px;
+            color: rgba(255, 255, 255, 1);
+            transition: all 0.3s ease 0s;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .name {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 50px;
+        }
+
+        .line {
+            text-align: right;
+            position: relative;
+            font-size: 1.1rem;
+            top: -12px;
+            left: 30px;
+            width: 55%;
+            z-index: -1;
+        }
+
+        section p {
+            width: 50%;
+            margin: 10px auto;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+            border-bottom: 2px solid white;
+        }
+
+        .box {
+            margin: 20px;
+        }
+
+        .box img {
+            width: 250px;
+            height: 250px;
+            border: 18px solid #26b8dd;
+        }
+
+        .box h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 5px;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .details {
+            margin-left: 55px;
+        }
+
+        .details h1 {
+            font-size: 2rem;
+        }
+
+        .details p {
+            font-size: 1.25rem;
+        }
+
+        .map {
+            margin-right: 55px;
+        }
+
+        .map h1 {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <nav>
+            <ul class="nav_link">
+                <li><a href="category.html">Category</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="hire.html">Hire Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="name">
+            Dream Events
+        </div>
+        <div class="line">
+            We Make it REAL.
+        </div>
+        <p>
+            Donec sit amet consequat augue. Nam lobortis vulputate orci eget facilisis. Mauris facilisis efficitur
+            congue. Sed sit amet metus sed lorem malesuada venenatis in sit amet purus. In vestibulum ligula ac auctor
+            euismod. Nunc massa sapien, convallis ut ante in, scelerisque venenatis tortor. Fusce maximus, arcu ut
+            elementum faucibus, lectus enim euismod metus, nec dignissim nisl nisi et ante. Suspendisse finibus rhoncus
+            lacinia. Suspendisse tincidunt augue eu tellus aliquam egestas. Aenean eu pellentesque justo, vitae congue
+            odio. Sed eu varius mauris. Donec eget augue ut lorem volutpat porttitor volutpat ac justo.
+        </p>
+        <div class="nav">
+            <div class="box">
+                <a href="category.html">
+                    <img src="images/category.jpg" alt="category">
+                    <h1>Category</h1>
+                </a>
+            </div>
+            <div class="box">
+                <a href="about.html">
+                    <img src="images/about us.jpg" alt="about us">
+                    <h1>About Us</h1>
+                </a>
+            </div>
+            <div class="box">
+                <a href="hire.html">
+                    <img src="images/hire me.jpg" alt="hire me">
+                    <h1>Hire Me</h1>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="contact">
+        <div class="details">
+            <h1>Contact Us</h1>
+            <p>
+                Email: dreamemail12@gmail.com<br>
+                Customer-care: +91 99999 99999<br>
+                For Business: +91 88888 88888<br>
+            </p>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4066178003673!2d72.83502741372689!3d19.1774345366979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f718a3ffff%3A0x5a1e9df551d6102b!2sDreams%20Events!5e0!3m2!1sen!2sin!4v1607432491576!5m2!1sen!2sin"
+                width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <h1>Google Maps</h1>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
